@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: mon ;
+    src: url('lobster/MonteCarlo-Regular.ttf');
+}
+@font-face {
+    font-family: lobster ;
+    src: url('lobster/Lobster-Regular.ttf');
+}
+@font-face {
+    font-family: reguler ;
+    src: url('lobster/JuliusSansOne-Regular.ttf');
+}
+.header-area h2{
+    font-family: reguler;
+}
+.full-website{
+    width: 900px;
+    margin: 30px auto;
+    padding: 50px;
+}
+.header-area{ 
+   background-color: #0b1979;
+   color: #f0fbfb;
+   text-align: center;
+   font-size: 15px;
+   text-transform: uppercase;
+   font-style: italic;
+}
+h2 .sb{
+    color: #a2505c;
+    font-size: 26px;
+}
+h2 .suba{
+    color: #77a0c0;
+    font-size: 24px;
+}
+.header-img{
+    background-color: #000000;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+.header-img p{
+    background-color: #047504;
+    margin-top: 8px;
+    font-size: 33px;
+    color: #e7f4ff;
+    font-family: mon;
+    font-weight: bold;
+    padding: 5px;
+}
+.middel-para{
+    background-color: #eeeeee;
+}
+.middel-para h1{
+    background-color: #834646;
+    text-align: center;
+    font-family: mon;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: bold;
+    color: #2d292d;
+}
+.middel-para p{
+    background-color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    color: #212529;
+    line-height: 22px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.service{
+    background-color: #eeeeee;
+}
+.service h1{
+    background-color: #297a48;
+    text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+    color: #212529;
+}
+.service .service1{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+.service .service2{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px; 
+}
+.service .service3{
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.service h2{
+    margin: 10px 0;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #212529;
+}
+.service h3{
+    color: #212529;
+    font-size: 15px;
+    font-weight: normal;
+}
+.contuct-form{
+    background-color: #eeeeee;
+}
+.contuct-form h1{
+    background-color: #0d6efd;
+    text-align: center;
+    color: #1f2e43;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.contuct-form form{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.contuct-form form input{
+    border: 2px solid #767676;
+}
+.contuct-form form textarea{
+    border: 2px solid #767676;
+}
+.footer-area{
+    background-color: #4f84c4;
+    text-align: center;
+    color: #ffffff;
+}
+.footer-area h1{
+    text-transform: uppercase;
+    font-family: lobster;
+    font-size: 45px;
+    font-style: italic;
+}
+.footer-area h2{
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.footer-area p{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.footer-menu{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+span{
+    color: #0d6edc;
+}
